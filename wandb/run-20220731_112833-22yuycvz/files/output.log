@@ -1,0 +1,31 @@
+********Training has started***************
+ Epoch: [1 | 2]
+Traceback (most recent call last):
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm.py", line 927, in <module>
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm.py", line 923, in main
+    if __name__ == '__main__':
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm.py", line 852, in train_model
+    _, train_accuracy, train_macro_f1, train_micro_f1 = valid(labeled_trainloader, ema_model, epoch,
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm.py", line 728, in train
+    logits = interleave(logits, batch_size)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1120, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torchvision\models\resnet.py", line 249, in forward
+    return self._forward_impl(x)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torchvision\models\resnet.py", line 239, in _forward_impl
+    x = self.layer3(x)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\container.py", line 141, in forward
+    input = module(input)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torchvision\models\resnet.py", line 124, in forward
+    out = self.conv1(x)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: [enforce fail at ..\c10\core\CPUAllocator.cpp:76] data. DefaultCPUAllocator: not enough memory: you tried to allocate 8028160 bytes.

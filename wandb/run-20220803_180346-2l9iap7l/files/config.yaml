@@ -1,0 +1,58 @@
+wandb_version: 1
+
+T:
+  desc: null
+  value: 0.5
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+    start_time: 1659521026
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 1
+      - 19
+      4: 3.8.5
+      5: 0.12.21
+      8:
+      - 3
+      - 5
+batch_size:
+  desc: null
+  value: 16
+classes:
+  desc: null
+  value: 2
+device:
+  desc: null
+  value: cuda
+ema_decay:
+  desc: null
+  value: 0.999
+epochs:
+  desc: null
+  value: 3
+lambda_u:
+  desc: null
+  value: 75
+lr:
+  desc: null
+  value: 5.0e-05
+seed:
+  desc: null
+  value: 42
+train_iteration:
+  desc: null
+  value: 2

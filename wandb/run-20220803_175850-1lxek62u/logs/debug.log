@@ -1,0 +1,82 @@
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_setup.py:_flush():76] Configure stats pid to 23252
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Yy\.config\wandb\settings
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_setup.py:_flush():76] Loading settings from D:\my_code_2\my_code\tutorial-MixMatch-master\wandb\settings
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'MixMatch_pycharm_0801.py', 'program': 'D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm_0801.py'}
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_init.py:_log_setup():461] Logging user logs to D:\my_code_2\my_code\tutorial-MixMatch-master\wandb\run-20220803_175850-1lxek62u\logs\debug.log
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_init.py:_log_setup():462] Logging internal logs to D:\my_code_2\my_code\tutorial-MixMatch-master\wandb\run-20220803_175850-1lxek62u\logs\debug-internal.log
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_init.py:init():495] calling init triggers
+2022-08-03 17:58:50,132 INFO    MainThread:23252 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-08-03 17:58:50,133 INFO    MainThread:23252 [wandb_init.py:init():548] starting backend
+2022-08-03 17:58:50,133 INFO    MainThread:23252 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-08-03 17:58:50,135 INFO    MainThread:23252 [backend.py:ensure_launched():217] starting backend process...
+2022-08-03 17:58:50,202 INFO    MainThread:23252 [backend.py:ensure_launched():222] started backend process with pid: 19392
+2022-08-03 17:58:50,202 INFO    MainThread:23252 [wandb_init.py:init():558] backend started and connected
+2022-08-03 17:58:50,203 INFO    MainThread:23252 [wandb_init.py:init():634] updated telemetry
+2022-08-03 17:58:50,210 INFO    MainThread:23252 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-08-03 17:58:54,457 ERROR   Thread-5  :23252 [retry.py:__call__():132] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\connectionpool.py", line 932, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000201ABC03550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Yy\miniconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Yy\miniconda3\lib\site-packages\urllib3\util\retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000201ABC03550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Yy\miniconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 108, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 158, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000201ABC03550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2022-08-03 17:59:20,225 INFO    MainThread:23252 [interface_shared.py:_communicate_run():326] couldn't get run from backend
+2022-08-03 17:59:20,225 ERROR   MainThread:23252 [wandb_init.py:init():674] backend process timed out
+2022-08-03 17:59:20,225 ERROR   MainThread:23252 [wandb_init.py:init():685] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-08-03 18:00:20,344 INFO    MainThread:23252 [wandb_init.py:teardown():302] tearing down wandb.init

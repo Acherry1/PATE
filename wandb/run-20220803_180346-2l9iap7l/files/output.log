@@ -1,0 +1,32 @@
+********Training has started***************
+ Epoch: [1 | 3]
+Traceback (most recent call last):
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm_0801.py", line 927, in <module>
+    main()
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm_0801.py", line 923, in main
+    train_model(model, labeled_trainloader, unlabeled_trainloader, epochs, log_freq)
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm_0801.py", line 849, in train_model
+    train_loss, train_loss_x, train_loss_u = train(labeled_trainloader, unlabeled_trainloader, model, epoch=epoch,
+  File "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm_0801.py", line 726, in train
+    logits.append(model(input))
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1120, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torchvision\models\resnet.py", line 249, in forward
+    return self._forward_impl(x)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torchvision\models\resnet.py", line 238, in _forward_impl
+    x = self.layer2(x)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\container.py", line 141, in forward
+    input = module(input)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torchvision\models\resnet.py", line 124, in forward
+    out = self.conv1(x)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\Yy\miniconda3\lib\site-packages\torch\nn\modules\conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: [enforce fail at ..\c10\core\CPUAllocator.cpp:76] data. DefaultCPUAllocator: not enough memory: you tried to allocate 25600000 bytes.

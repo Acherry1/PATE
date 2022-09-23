@@ -1,0 +1,7 @@
+*.xlsx
+*.zip
+*.pdf
+*.h5
+.idea
+.gitignore
+.ipynb_checkpoints

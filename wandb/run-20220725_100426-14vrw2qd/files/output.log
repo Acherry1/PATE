@@ -1,0 +1,76 @@
+********Training has started***************
+ Epoch: [1 | 2]
+(1/2) Data: 2.064s | Batch: 43.236s | Total: 0:00:43 | ETA: 0:00:00 | Loss: 0.8765 | Loss_x: 0.7166 | Loss_u: 0.0043 | W: 37.5000
+(2/2) Data: 1.847s | Batch: 44.901s | Total: 0:01:29 | ETA: 0:00:00 | Loss: 1.0158 | Loss_x: 0.6957 | Loss_u: 0.0064 | W: 46.8750
+************Train_stats*************
+(1/2) Data: 0.771s | Batch: 4.074s | Total: 0:00:04 | ETA: 0:00:00 | Loss: 0.6834 | Accuracy: 0.5625 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.5625
+(2/2) Data: 2.847s | Batch: 6.095s | Total: 0:00:08 | ETA: 0:00:00 | Loss: 0.6948 | Accuracy: 0.5312 | Macro_F1_score: 0.0833 | Micro_F1_score: 0.5312
+************Validation Stats*************
+(1/2) Data: 0.821s | Batch: 4.807s | Total: 0:00:04 | ETA: 0:00:00 | Loss: 0.6832 | Accuracy: 0.6875 | Macro_F1_score: 0.3333 | Micro_F1_score: 0.6875
+(2/2) Data: 3.235s | Batch: 7.362s | Total: 0:00:09 | ETA: 0:00:00 | Loss: 0.6775 | Accuracy: 0.6250 | Macro_F1_score: 0.3246 | Micro_F1_score: 0.6250
+************Test Stats *************
+(1/27) Data: 0.545s | Batch: 5.510s | Total: 0:00:05 | ETA: 0:00:00 | Loss: 0.7124 | Accuracy: 0.3750 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.3750
+(2/27) Data: 3.326s | Batch: 7.813s | Total: 0:00:10 | ETA: 0:00:00 | Loss: 0.7002 | Accuracy: 0.4688 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4688
+(3/27) Data: 5.776s | Batch: 10.100s | Total: 0:00:14 | ETA: 0:00:00 | Loss: 0.7077 | Accuracy: 0.4167 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4167
+(4/27) Data: 8.109s | Batch: 12.377s | Total: 0:00:19 | ETA: 0:00:00 | Loss: 0.7095 | Accuracy: 0.3906 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.3906
+(5/27) Data: 10.541s | Batch: 14.695s | Total: 0:00:23 | ETA: 0:00:00 | Loss: 0.7062 | Accuracy: 0.4125 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4125
+(6/27) Data: 12.838s | Batch: 17.018s | Total: 0:00:28 | ETA: 0:00:00 | Loss: 0.7037 | Accuracy: 0.4167 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4167
+(7/27) Data: 15.222s | Batch: 19.442s | Total: 0:00:33 | ETA: 0:00:00 | Loss: 0.6968 | Accuracy: 0.4554 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4554
+(8/27) Data: 17.707s | Batch: 21.902s | Total: 0:00:39 | ETA: 0:00:00 | Loss: 0.6964 | Accuracy: 0.4531 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4531
+(9/27) Data: 20.150s | Batch: 24.313s | Total: 0:00:43 | ETA: 0:00:00 | Loss: 0.6992 | Accuracy: 0.4583 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4583
+(10/27) Data: 22.571s | Batch: 26.680s | Total: 0:00:47 | ETA: 0:00:00 | Loss: 0.7053 | Accuracy: 0.4375 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4375
+(11/27) Data: 24.955s | Batch: 29.019s | Total: 0:00:52 | ETA: 0:00:00 | Loss: 0.7010 | Accuracy: 0.4716 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4716
+(12/27) Data: 27.341s | Batch: 31.405s | Total: 0:00:57 | ETA: 0:00:00 | Loss: 0.7000 | Accuracy: 0.4740 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4740
+(13/27) Data: 29.730s | Batch: 33.775s | Total: 0:01:02 | ETA: 0:00:00 | Loss: 0.7015 | Accuracy: 0.4663 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4663
+(14/27) Data: 32.139s | Batch: 36.201s | Total: 0:01:07 | ETA: 0:00:00 | Loss: 0.6993 | Accuracy: 0.4821 | Macro_F1_score: 0.0195 | Micro_F1_score: 0.4821
+(15/27) Data: 34.595s | Batch: 38.647s | Total: 0:01:12 | ETA: 0:00:00 | Loss: 0.7006 | Accuracy: 0.4667 | Macro_F1_score: 0.0448 | Micro_F1_score: 0.4667
+(16/27) Data: 37.065s | Batch: 41.124s | Total: 0:01:18 | ETA: 0:00:00 | Loss: 0.7014 | Accuracy: 0.4609 | Macro_F1_score: 0.0761 | Micro_F1_score: 0.4609
+(17/27) Data: 39.535s | Batch: 43.604s | Total: 0:01:23 | ETA: 0:00:00 | Loss: 0.6970 | Accuracy: 0.4816 | Macro_F1_score: 0.1244 | Micro_F1_score: 0.4816
+(18/27) Data: 42.010s | Batch: 46.077s | Total: 0:01:28 | ETA: 0:00:00 | Loss: 0.6942 | Accuracy: 0.5000 | Macro_F1_score: 0.1673 | Micro_F1_score: 0.5000
+(19/27) Data: 44.496s | Batch: 48.562s | Total: 0:01:33 | ETA: 0:00:00 | Loss: 0.6949 | Accuracy: 0.4967 | Macro_F1_score: 0.1905 | Micro_F1_score: 0.4967
+(20/27) Data: 46.997s | Batch: 51.063s | Total: 0:01:38 | ETA: 0:00:00 | Loss: 0.6975 | Accuracy: 0.4875 | Macro_F1_score: 0.2048 | Micro_F1_score: 0.4875
+(21/27) Data: 49.493s | Batch: 53.543s | Total: 0:01:43 | ETA: 0:00:00 | Loss: 0.6968 | Accuracy: 0.4940 | Macro_F1_score: 0.2317 | Micro_F1_score: 0.4940
+(22/27) Data: 51.961s | Batch: 56.013s | Total: 0:01:47 | ETA: 0:00:00 | Loss: 0.6981 | Accuracy: 0.4858 | Macro_F1_score: 0.2428 | Micro_F1_score: 0.4858
+(23/27) Data: 54.416s | Batch: 58.463s | Total: 0:01:52 | ETA: 0:00:00 | Loss: 0.6973 | Accuracy: 0.4837 | Macro_F1_score: 0.2587 | Micro_F1_score: 0.4837
+(24/27) Data: 56.864s | Batch: 60.903s | Total: 0:01:57 | ETA: 0:00:00 | Loss: 0.6946 | Accuracy: 0.5000 | Macro_F1_score: 0.2868 | Micro_F1_score: 0.5000
+(25/27) Data: 59.300s | Batch: 63.343s | Total: 0:02:01 | ETA: 0:00:00 | Loss: 0.6917 | Accuracy: 0.5150 | Macro_F1_score: 0.3127 | Micro_F1_score: 0.5150
+(26/27) Data: 61.734s | Batch: 65.775s | Total: 0:02:06 | ETA: 0:00:00 | Loss: 0.6896 | Accuracy: 0.5240 | Macro_F1_score: 0.3336 | Micro_F1_score: 0.5240
+(27/27) Data: 64.158s | Batch: 68.188s | Total: 0:02:10 | ETA: 0:00:00 | Loss: 0.6858 | Accuracy: 0.5417 | Macro_F1_score: 0.3583 | Micro_F1_score: 0.5417
+ Epoch: [2 | 2]
+(1/2) Data: 1.855s | Batch: 38.481s | Total: 0:00:38 | ETA: 0:00:00 | Loss: 2.0277 | Loss_x: 0.6258 | Loss_u: 0.0187 | W: 75.0000
+(2/2) Data: 1.794s | Batch: 38.961s | Total: 0:01:17 | ETA: 0:00:00 | Loss: 1.7447 | Loss_x: 0.5406 | Loss_u: 0.0161 | W: 75.0000
+************Train_stats*************
+(1/2) Data: 0.915s | Batch: 5.197s | Total: 0:00:05 | ETA: 0:00:00 | Loss: 0.6804 | Accuracy: 0.4375 | Macro_F1_score: 0.2000 | Micro_F1_score: 0.4375
+(2/2) Data: 3.730s | Batch: 8.351s | Total: 0:00:11 | ETA: 0:00:00 | Loss: 0.6912 | Accuracy: 0.4688 | Macro_F1_score: 0.2250 | Micro_F1_score: 0.4688
+************Validation Stats*************
+(1/2) Data: 0.673s | Batch: 7.036s | Total: 0:00:07 | ETA: 0:00:00 | Loss: 0.6831 | Accuracy: 0.6875 | Macro_F1_score: 0.3333 | Micro_F1_score: 0.6875
+(2/2) Data: 4.411s | Batch: 10.201s | Total: 0:00:13 | ETA: 0:00:00 | Loss: 0.6774 | Accuracy: 0.6250 | Macro_F1_score: 0.3246 | Micro_F1_score: 0.6250
+************Test Stats *************
+(1/27) Data: 0.756s | Batch: 6.532s | Total: 0:00:06 | ETA: 0:00:00 | Loss: 0.7117 | Accuracy: 0.3750 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.3750
+(2/27) Data: 4.165s | Batch: 9.993s | Total: 0:00:13 | ETA: 0:00:00 | Loss: 0.6995 | Accuracy: 0.4688 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4688
+(3/27) Data: 7.508s | Batch: 13.241s | Total: 0:00:19 | ETA: 0:00:00 | Loss: 0.7070 | Accuracy: 0.4167 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4167
+(4/27) Data: 10.697s | Batch: 16.226s | Total: 0:00:25 | ETA: 0:00:00 | Loss: 0.7087 | Accuracy: 0.3906 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.3906
+(5/27) Data: 13.837s | Batch: 19.298s | Total: 0:00:31 | ETA: 0:00:00 | Loss: 0.7055 | Accuracy: 0.4125 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4125
+(6/27) Data: 16.884s | Batch: 22.183s | Total: 0:00:36 | ETA: 0:00:00 | Loss: 0.7030 | Accuracy: 0.4167 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4167
+(7/27) Data: 19.834s | Batch: 25.036s | Total: 0:00:42 | ETA: 0:00:00 | Loss: 0.6961 | Accuracy: 0.4643 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4643
+(8/27) Data: 22.721s | Batch: 27.798s | Total: 0:00:47 | ETA: 0:00:00 | Loss: 0.6957 | Accuracy: 0.4609 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4609
+(9/27) Data: 25.493s | Batch: 30.474s | Total: 0:00:51 | ETA: 0:00:00 | Loss: 0.6986 | Accuracy: 0.4653 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4653
+(10/27) Data: 28.212s | Batch: 33.119s | Total: 0:00:56 | ETA: 0:00:00 | Loss: 0.7046 | Accuracy: 0.4437 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4437
+(11/27) Data: 30.899s | Batch: 35.742s | Total: 0:01:01 | ETA: 0:00:00 | Loss: 0.7003 | Accuracy: 0.4773 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4773
+(12/27) Data: 33.580s | Batch: 38.387s | Total: 0:01:07 | ETA: 0:00:00 | Loss: 0.6993 | Accuracy: 0.4792 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4792
+(13/27) Data: 36.252s | Batch: 41.014s | Total: 0:01:12 | ETA: 0:00:00 | Loss: 0.7008 | Accuracy: 0.4712 | Macro_F1_score: 0.0000 | Micro_F1_score: 0.4712
+(14/27) Data: 38.936s | Batch: 43.659s | Total: 0:01:18 | ETA: 0:00:00 | Loss: 0.6987 | Accuracy: 0.4866 | Macro_F1_score: 0.0195 | Micro_F1_score: 0.4866
+(15/27) Data: 41.626s | Batch: 46.319s | Total: 0:01:23 | ETA: 0:00:00 | Loss: 0.7000 | Accuracy: 0.4708 | Macro_F1_score: 0.0448 | Micro_F1_score: 0.4708
+(16/27) Data: 44.327s | Batch: 48.994s | Total: 0:01:29 | ETA: 0:00:00 | Loss: 0.7009 | Accuracy: 0.4648 | Macro_F1_score: 0.0761 | Micro_F1_score: 0.4648
+(17/27) Data: 47.004s | Batch: 51.614s | Total: 0:01:33 | ETA: 0:00:00 | Loss: 0.6966 | Accuracy: 0.4853 | Macro_F1_score: 0.1244 | Micro_F1_score: 0.4853
+(18/27) Data: 49.634s | Batch: 54.197s | Total: 0:01:38 | ETA: 0:00:00 | Loss: 0.6938 | Accuracy: 0.5035 | Macro_F1_score: 0.1673 | Micro_F1_score: 0.5035
+(19/27) Data: 52.245s | Batch: 56.766s | Total: 0:01:43 | ETA: 0:00:00 | Loss: 0.6946 | Accuracy: 0.5000 | Macro_F1_score: 0.1905 | Micro_F1_score: 0.5000
+(20/27) Data: 54.845s | Batch: 59.335s | Total: 0:01:48 | ETA: 0:00:00 | Loss: 0.6971 | Accuracy: 0.4906 | Macro_F1_score: 0.2048 | Micro_F1_score: 0.4906
+(21/27) Data: 57.422s | Batch: 61.875s | Total: 0:01:52 | ETA: 0:00:00 | Loss: 0.6965 | Accuracy: 0.4970 | Macro_F1_score: 0.2317 | Micro_F1_score: 0.4970
+(22/27) Data: 59.965s | Batch: 64.379s | Total: 0:01:56 | ETA: 0:00:00 | Loss: 0.6978 | Accuracy: 0.4886 | Macro_F1_score: 0.2428 | Micro_F1_score: 0.4886
+(23/27) Data: 62.466s | Batch: 66.849s | Total: 0:02:01 | ETA: 0:00:00 | Loss: 0.6971 | Accuracy: 0.4864 | Macro_F1_score: 0.2587 | Micro_F1_score: 0.4864
+(24/27) Data: 64.946s | Batch: 69.302s | Total: 0:02:05 | ETA: 0:00:00 | Loss: 0.6944 | Accuracy: 0.5026 | Macro_F1_score: 0.2868 | Micro_F1_score: 0.5026
+(25/27) Data: 67.404s | Batch: 71.732s | Total: 0:02:10 | ETA: 0:00:00 | Loss: 0.6915 | Accuracy: 0.5175 | Macro_F1_score: 0.3127 | Micro_F1_score: 0.5175
+(26/27) Data: 69.841s | Batch: 74.150s | Total: 0:02:14 | ETA: 0:00:00 | Loss: 0.6894 | Accuracy: 0.5264 | Macro_F1_score: 0.3336 | Micro_F1_score: 0.5264
+(27/27) Data: 72.263s | Batch: 76.549s | Total: 0:02:18 | ETA: 0:00:00 | Loss: 0.6856 | Accuracy: 0.5440 | Macro_F1_score: 0.3583 | Micro_F1_score: 0.5440
+**************Training has Finished**********************

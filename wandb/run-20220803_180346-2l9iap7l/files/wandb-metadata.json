@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-08-03T10:03:49.242439",
+    "startedAt": "2022-08-03T10:03:46.351000",
+    "docker": null,
+    "gpu": "GeForce MX150",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:/my_code_2/my_code/tutorial-MixMatch-master/MixMatch_pycharm_0801.py",
+    "codePath": "MixMatch_pycharm_0801.py",
+    "host": "\u8001\u6b3e\u5c0f\u7c73pro",
+    "username": "Yy",
+    "executable": "C:\\Users\\Yy\\miniconda3\\python.exe"
+}

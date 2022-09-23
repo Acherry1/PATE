@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-08-17T00:23:11.587551",
+    "startedAt": "2022-08-17T00:23:08.196095",
+    "docker": null,
+    "gpu": "GeForce MX150",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "\u8001\u6b3e\u5c0f\u7c73pro",
+    "username": "Yy",
+    "executable": "c:\\users\\yy\\miniconda3\\python.exe"
+}
